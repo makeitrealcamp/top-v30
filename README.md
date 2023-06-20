@@ -1,9 +1,8 @@
-# Programa Top v__ -  Tiempo _______
+# Programa Top v30 -  Tiempo completo
 
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
-- [Nombre del mentor](profiles/mentor-principal.md)
-- Mentor 2
-- Mentor 3
+- [Sergio Jaramillo](profiles/mentor-principal.md)
+- Leonel Oliveros
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 - Estudiante 1
