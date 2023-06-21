@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Vanilla</title>
+</head>
+<body>
+  <input id='fullName' type="text" placeholder="Enter name">
+  <button>Guardar</button>
+
+  <ul>
+    <li>Sergio</li>
+    <li>Carlos</li>
+    <li>Andrea</li>
+  </ul>
+
+  <script>
+    // Javascript Vanilla
+
+    // 1. Seleccionar elemento input del DOM
+    const input = document.querySelector('#fullName')
+    // 2. Seleccionar elemento button del DOM
+    const buton = document.querySelector('button')
+    // 3. Seleccionar elemento ul del DOM
+    const ul = document.querySelector('ul')
+    // 4. Crear una función que se ejecute al hacer click en el botón
+    buton.addEventListener('click', function(){
+      // 5. Crear un elemento li
+    const li = document.createElement('li')
+      // 6. Agregar un texto al li
+      li.textContent = input.value 
+      // 7. Agregar el li al ul
+      ul.appendChild(li)
+      // 8. Limpiar el input
+      input.value = ''
+    })
+  
+  </script>
+</body>
+</html>
+
+
