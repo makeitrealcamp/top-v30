@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 16px;
+  background: #469dcf;
+  cursor: pointer;
+}
+.container__item:hover {
+  background: #2f83b3;
+}
+.container__item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px 16px 0 0;
+}
+.container__item p {
+  font-size: 24px;
+}
+.container__item .container__item-buttons button {
+  font-size: 24px;
+}
+
+.container__button--like {
+  background: rgb(71, 182, 71);
+  color: #fff;
+  font-weight: 600;
+}
+
+.container__button--ignore {
+  background: rgb(165, 43, 64);
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
