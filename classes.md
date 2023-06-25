@@ -10,3 +10,4 @@
 - **Responsive Design y BEM Notation:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-22/mimaw5EMJ.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-22/mimaw5EMJ.mp4)
 - **Fundamentos de flexbox:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-22/1s4Rg6noc.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-22/1s4Rg6noc.mp4)
 - **Preprocesador SASS** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/fEBQbSCnm.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/fEBQbSCnm.mp4)
+- **Programación funcional y ES6** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/LSsoQsHeZ.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/LSsoQsHeZ.mp4)
