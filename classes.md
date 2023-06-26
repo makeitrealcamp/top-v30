@@ -11,3 +11,8 @@
 - **Fundamentos de flexbox:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-22/1s4Rg6noc.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-22/1s4Rg6noc.mp4)
 - **Preprocesador SASS** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/fEBQbSCnm.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/fEBQbSCnm.mp4)
 - **Programación funcional y ES6** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/LSsoQsHeZ.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-23/LSsoQsHeZ.mp4)
+
+### Sprint 2:
+
+- **Introducción a react - JSX:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/Trou172L-.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/Trou172L-.mp4)
+- **React - props:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/uqh4UUm0H.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/uqh4UUm0H.mp4)
