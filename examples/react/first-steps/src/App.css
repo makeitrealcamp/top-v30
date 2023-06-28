@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.like {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 1px solid black;
+  background: white;
+}
+
+.like--active {
+  background: red;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
