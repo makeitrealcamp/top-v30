@@ -1,7 +1,7 @@
 import ContactCard from '../ContactCard';
 import './ContactList.css';
 
-const ContactList = ({ contacts = [] }) => {
+const ContactList = ({ contacts = []}) => {
   return (
     <div className="contact-list">
       {contacts.map((contact) => (
