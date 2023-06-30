@@ -16,3 +16,10 @@
 
 - **Introducción a react - JSX:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/Trou172L-.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/Trou172L-.mp4)
 - **React - props:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/uqh4UUm0H.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-26/uqh4UUm0H.mp4)
+- **React - Eventos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-27/AMol632H-.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-27/AMol632H-.mp4)
+- **React - Estados:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-27/ZM2DGezwS.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-27/ZM2DGezwS.mp4)
+- **React - Estados con arreglos y objetos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-28/-EcphdfPx.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-28/-EcphdfPx.mp4)
+- **React - Ejercicio album en react:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-28/R5r4HpKqX.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-28/R5r4HpKqX.mp4)
+- **React - Estilos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/sYuZQYKA0.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/sYuZQYKA0.mp4)
+- **React - formularios:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/CpymIHXsY.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/CpymIHXsY.mp4)
+- **Protocolo HTTP (Metodos, Estados, Fetch):** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-30/ySJBh1WKJ.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-30/ySJBh1WKJ.mp4)
