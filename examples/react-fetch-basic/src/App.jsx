@@ -4,6 +4,10 @@ import viteLogo from '/vite.svg'
 import Item from './components/Item'
 import './App.css'
 
+// CRUD
+// Create - Read - Update - Delete
+// POST - GET:id - PUT ó PATCH - DELETE
+
 function App() {
   const [user, setUser] = useState({})
   const [users, setUsers] = useState([])
