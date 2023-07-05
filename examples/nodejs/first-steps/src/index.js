@@ -1,8 +1,21 @@
 const express = require('express');
 const db = require("@makeitrealcamp/db-mock")
 
+const { 
+  handleCreateData, 
+  handleReadData, 
+  handleReadDataById,
+  handleUpdateData
+} = require('./controller')
+
 const app = express()
 const port = 8080
+
+// MVC
+// Model - View - Controller
+// Model: Es la representación de la información que vamos a guardar en la base de datos
+// View: Es la representación visual de la información que vamos a mostrar al usuario
+// Controller: Es el encargado de recibir las peticiones del usuario y responderle con la información que necesita
 
 app.use(express.json()) // Con esto podemos recibir un body
 
@@ -14,54 +27,16 @@ app.get('/healthcheck', (_, res) => {
 })
 
 // Create - POST
-app.post('/users', (req, res) => {
-  try {
-    const { body } = req
-    const response = db.insert({...body})
-    
-    res.status(201).json({ message: 'User created succesfully!', data: response })
-  } catch (error) {
-
-    res.status(400).json({ message: error.message })
-  }
-})
+app.post('/users', handleCreateData)
 
 //Read - GET
-app.get('/users', (_, res) => {
-  try {
-    const response = db.findAll()
-
-    res.status(200).json({ message: 'Users found succesfully!', data: response })
-  } catch(error) {
-    res.status(400).json({ message: error.message })
-  }
-})
+app.get('/users', handleReadData)
 
 //Read - GET:id
-app.get('/users/:id', (req, res) => {
-  try {
-    const { id } = req.params
+app.get('/users/:id', handleReadDataById)
 
-    const response = db.findById(id)
-
-    res.status(200).json({ message: 'User found succesfully!', data: response })
-  } catch(error) {
-    res.status(400).json({ message: error.message })
-  }
-})
-
-app.put('/users/:id', (req, res) => {
-  try {
-    const { id } = req.params
-    const { body } = req
-
-    const responde = db.update({id, ...body})
-
-    res.status(200).json({ message: 'User updated succesfully!', data: responde })
-  } catch(error) {
-    res.status(400).json({ message: error.message })
-  }
-})
+//Update - PUT
+app.put('/users/:id', handleUpdateData)
 
 app.listen(port, () => {
   console.log(`Successfully running at http://localhost:${port}`)

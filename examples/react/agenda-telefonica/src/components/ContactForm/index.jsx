@@ -1,17 +1,13 @@
 import { useState } from 'react';
 import './ContactForm.css';
 
-const ContactForm = ({ onAddContact }) => {
-  const [ contact, setContact ] = useState({
-    name: '',
-    phone: '',
-    photo: '',
-  });
+const ContactForm = ({ onAddContact, singleContact, setSingleContact }) => {
+
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setContact({ 
-      ...contact, // spread operator
+    setSingleContact({ 
+      ...singleContact, // spread operator
       [name]: value 
     });
   }
@@ -20,14 +16,14 @@ const ContactForm = ({ onAddContact }) => {
     event.preventDefault();
     
     const newContact = {
-      ...contact,
-      id: Date.now(),
+      ...singleContact,
+      id: singleContact.id ? singleContact.id : Date.now(),
     }
 
     onAddContact(newContact);
 
     // reset form
-    setContact({
+    setSingleContact({
       name: '',
       phone: '',
       photo: '',
@@ -53,7 +49,7 @@ const ContactForm = ({ onAddContact }) => {
               className="contact-form__input"
               required
               onChange={handleChange}
-              value={contact.name}
+              value={singleContact.name}
             />
           </div>
           {/* input phone */}
@@ -62,13 +58,13 @@ const ContactForm = ({ onAddContact }) => {
               Teléfono:
             </label>
             <input
-              type="number"
+              type="text"
               id='phone'
               name="phone"
               className="contact-form__input"
               required
               onChange={handleChange}
-              value={contact.phone}
+              value={singleContact.phone}
             />
           </div>
           {/* input photo */}
@@ -82,7 +78,7 @@ const ContactForm = ({ onAddContact }) => {
               name="photo"
               className="contact-form__input"
               onChange={handleChange}
-              value={contact.photo}
+              value={singleContact.photo}
             />
           </div>
 
