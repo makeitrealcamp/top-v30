@@ -6,15 +6,30 @@ const Form = ({ user }) => {
   const handleChange = (event) => {
     const { name, value } = event.target
 
-    setForm({
+    const newUser = {
       ...form,
       [name]: value,
-    })
+    }
+
+    setForm(newUser)
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
-    console.log(form)
+    try { 
+      const url = 'https://jsonplaceholder.typicode.com/users'
+      const config = {
+        method: 'POST',
+        body: JSON.stringify(form),
+      }
+      const response = await fetch(url, config)
+
+      const data = await response.json()
+
+      alert('Usuario creado satisfactoriamente', data)
+    } catch(error) {
+      console.log(error)
+    }
   }
 
   return(

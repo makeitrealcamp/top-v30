@@ -1,8 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Item from './components/Item'
+import Form from './components/Form'
+import Modal from './components/Modal'
 import './App.css'
+
 
 // CRUD
 // Create - Read - Update - Delete
@@ -11,6 +14,7 @@ import './App.css'
 function App() {
   const [user, setUser] = useState({})
   const [users, setUsers] = useState([])
+  const [viewModal, setViewModal] = useState(false)
 
   const handleRead = () => {
     const config = {
@@ -21,6 +25,10 @@ function App() {
       .then((data) => setUsers(data))
       .catch((error) => console.log(error))
   }
+  useEffect(() => {
+    handleRead()
+  }, [])
+
 
 /*   const handleReadOne = () => {
     const random = Math.floor(Math.random() * 10) + 1
@@ -56,7 +64,7 @@ function App() {
         method: 'POST',
         body: JSON.stringify(fakeUser), // Javascript - json
         headers: {
-          'Content-type': 'application/json',
+          'Authorization': 'Bearer token0923u4cm0q394ntuvqp309evthe',
         }
       }
 
@@ -75,7 +83,9 @@ function App() {
 
   return (
     <>
-      <div>
+{/*       <div>
+        {viewModal && <Modal />}
+        <button onClick={() => setViewModal(!viewModal)}>Abrir modal</button>
         <h1>React fetch</h1> 
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -83,7 +93,7 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-      </div>
+      </div> */}
       <button onClick={handleRead}>Leer</button>
       <button onClick={handleReadOne}>Leer usuario</button>
       <button onClick={handleCreate}>Crear</button>
@@ -91,7 +101,8 @@ function App() {
         {users.map((user) => (
           <Item key={user.id} user={user} onSelectUser={setUser} />
         ))}
-    </div>
+      </div>
+      {/* <Form user={user}/> */}
     </>
   )
 }
