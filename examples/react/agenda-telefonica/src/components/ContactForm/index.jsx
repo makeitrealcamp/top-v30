@@ -2,7 +2,8 @@ import { useState } from 'react';
 import './ContactForm.css';
 
 const ContactForm = ({ onAddContact, singleContact, setSingleContact }) => {
-
+  const [ loading, setLoading ] = useState(false);
+  const [ error, setError ] = useState(false);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -12,23 +13,41 @@ const ContactForm = ({ onAddContact, singleContact, setSingleContact }) => {
     });
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    
     const newContact = {
       ...singleContact,
       id: singleContact.id ? singleContact.id : Date.now(),
     }
 
-    onAddContact(newContact);
+    const apiBase = 'http://localhost:8080/users';
+    const updateBase = 'http://localhost:8080/users/3'
+    const url = `http://localhost:8080/users${singleContact.id ? `/${singleContact.id}` : ''}`
+    const configFetch = {
+      method: singleContact.id ? 'PUT' : 'POST',
+      body: JSON.stringify(newContact),
+      headers: {
+        'Content-Type': 'application/json'
+      },
+    }
+    
+    try {
+      setLoading(true);
+      const response = await fetch(url, configFetch)
+      const user = await response.json();
+      onAddContact(user.data);
 
-    // reset form
-    setSingleContact({
-      name: '',
-      phone: '',
-      photo: '',
-    })
-
+    } catch(error) {
+      setError(`Ups! ocurrió algo, intentalo más tarde. Error: ${error}`)
+    } finally {
+      setLoading(false);
+      // reset form
+      setSingleContact({
+        name: '',
+        phone: '',
+        photo: '',
+      })
+    }
   }
 
   return (
@@ -83,8 +102,12 @@ const ContactForm = ({ onAddContact, singleContact, setSingleContact }) => {
           </div>
 
         </div>
-        <button type="submit" className="contact-form__button">
-          Agregar
+        <button 
+          type="submit" 
+          className="contact-form__button"
+          disabled={loading}
+        >
+          {loading ? 'Espere por favor' :  'Agregar'}
         </button>
       </form>
     </div>

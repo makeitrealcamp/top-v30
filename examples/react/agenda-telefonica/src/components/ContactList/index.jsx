@@ -6,7 +6,9 @@ const ContactList = ({
   contacts = [], 
   setSingleContact, 
   setSelected, 
-  selected
+  selected,
+  loadingList,
+  errorList
 }) => {
 
   const handleClick = (contact) => {
@@ -22,6 +24,14 @@ const ContactList = ({
       })
     }
 
+  }
+
+  if(loadingList) {
+    return <div>Loading...</div>
+  }
+
+  if(errorList) {
+    return <div>{errorList}</div>
   }
 
   return (

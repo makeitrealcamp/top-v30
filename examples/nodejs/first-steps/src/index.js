@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require("@makeitrealcamp/db-mock")
+const cors = require('cors')
 
 const { 
   handleCreateData, 
@@ -17,6 +17,7 @@ const port = 8080
 // View: Es la representación visual de la información que vamos a mostrar al usuario
 // Controller: Es el encargado de recibir las peticiones del usuario y responderle con la información que necesita
 
+app.use(cors())
 app.use(express.json()) // Con esto podemos recibir un body
 
 //CRUD
