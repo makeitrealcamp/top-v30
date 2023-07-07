@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors')
+const dotenv = require('dotenv')
 
 const { 
   handleCreateData, 
@@ -9,7 +10,7 @@ const {
 } = require('./controller')
 
 const app = express()
-const port = 8080
+const port = process.env.PORT || 8080
 
 // MVC
 // Model - View - Controller
