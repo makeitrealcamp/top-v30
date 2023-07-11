@@ -11,32 +11,32 @@
 - **Sprint 9**: CI/CD del backend y el frontend.
 - **Sprint 10**: `DEMO Publico` 🎊🎉💻🎊🎉
 
-**grupo 1:**
+**grupo 1: nft-marketplacet**
 
 - Leidy Tatiana
 - Camilo Suarez
 - Juan Camilo Clement
 
-**grupo 2:**
+**grupo 2: cab**
 
 - Andrea Vargas
 - Daniel hincapie
 - Juan Felipe Gomez
 
-**grupo 3:**
+**grupo 3: hotel-booking**
 
 - Natalia Chavarria
 - Fabian Mendoza
 - Victor Mazo
 
-**grupo 4:**
+**grupo 4: medical-health**
 
 - Erick Carrasco
 - Carlos Mendoza
 - Andry Peña
 - Juan Villegas
 
-**grupo 5:**
+**grupo 5: restaurant**
 
 - Jesus Bravo
 - Cristian Jimenez
