@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Carousel from './components/Carousel'
 import Form from './components/Form'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+      <Carousel/>
       <Form />
     </>
   )
