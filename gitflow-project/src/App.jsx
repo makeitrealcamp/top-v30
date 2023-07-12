@@ -10,8 +10,12 @@ function App() {
     <>
       <Form/>
       <Carousel/>
+<<<<<<< HEAD
       <Banner/>
       <Card/>
+=======
+      <Banner/> 
+>>>>>>> fe438ad (return commit add carousel)
     </>
   )
 }
