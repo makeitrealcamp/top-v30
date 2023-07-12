@@ -1,6 +1,7 @@
 import './App.css'
 import Form from './components/Form'
 import Carousel from './components/Carousel'
+import Banner from './components/banner'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Form/>
       <Carousel/>
+      <Banner/>
     </>
   )
 }
