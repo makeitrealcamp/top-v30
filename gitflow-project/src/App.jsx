@@ -12,6 +12,7 @@ function App() {
       <Carousel/>
       <Banner/>
       <Card/>
+      <h1>Clase de git</h1>
     </>
   )
 }
