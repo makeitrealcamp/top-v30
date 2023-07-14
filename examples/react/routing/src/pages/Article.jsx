@@ -1,32 +1,25 @@
-import { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLoaderData } from 'react-router-dom'
 
 const Article = () => {
-  const { id } = useParams()
+  const { post } = useLoaderData()
   const navigate = useNavigate();
-  const [ data, setData ] = useState({})
   
-  useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
-      .then(response => response.json())
-      .then(json => setData(json))
-  }, [])
-
-  useEffect(() => {
-    setTimeout(() => {
-      navigate('/')
-    }, 3000)
-  }, [])
-
   return (
     <>
       <div>Article</div>
-      <h1>{data?.title}</h1>
-      <p>{data?.body}</p>
+      <h1>{post.title}</h1>
+      <p>{post.body}</p>
       <button onClick={() => navigate('/')}>Ir al home</button>
     </>
   )
 }
 
 export default Article
+
+export const loaderArticle = async ({ params }) => {
+  const { id } = params
+  const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+  const data = await response.json()
+
+  return { post: data }
+}

@@ -1,14 +1,7 @@
-import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLoaderData } from "react-router-dom"
 
 const Posts = () => {
-  const [posts, setPosts] = useState([])
-
-  useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts')
-      .then(response => response.json())
-      .then(json => setPosts(json))
-  }, [])
+  const { posts } = useLoaderData()
 
   return(
     <div>
@@ -28,3 +21,10 @@ const Posts = () => {
 }
 
 export default Posts
+
+export const loaderPost = async () => {
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts')
+  const data = await response.json()
+
+  return { posts: data }
+}

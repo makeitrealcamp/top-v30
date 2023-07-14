@@ -2,9 +2,13 @@ import {createBrowserRouter} from 'react-router-dom'
 
 import Root from '../layout/Root'
 import Home from '../pages/Home'
-import Posts from '../pages/Posts'
+import Posts, { loaderPost } from '../pages/Posts'
 import NotFound from '../pages/NotFound'
-import Article from '../pages/Article'
+import Article, { loaderArticle } from '../pages/Article'
+import Profile from '../pages/Profile'
+import PrivateRoute from '../components/PrivateRoute'
+
+
 
 const router = createBrowserRouter([
   {
@@ -18,27 +22,20 @@ const router = createBrowserRouter([
       },
       {
         path: '/posts',
-        element: <Posts />
+        element: <Posts />,
+        loader: loaderPost
       },
       {
         path: '/posts/:id',
-        element: <Article />
+        element: <Article />,
+        loader: loaderArticle
+      },
+      {
+        path: '/profile',
+        element: <PrivateRoute> <Profile /> </PrivateRoute>
       }
     ]
-  }
+  },
 ])
 
 export default router
-
-const legacyRouter = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />,
-    errorElement: <NotFound />
-  },
-  {
-    path: '/posts',
-    element: <Posts />,
-    errorElement: <NotFound />
-  }
-])

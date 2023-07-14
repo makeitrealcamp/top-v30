@@ -1,13 +1,24 @@
-import { Outlet } from "react-router-dom"
+import { Outlet, useNavigation } from "react-router-dom"
 import Header from "../components/Header"
+import ValidateElement from "../components/ValidateElement"
+
 
 const Root = () => {
+  const navigation = useNavigation()
+  const validPathsHeader = ['/', '/posts']
 
   return (
     <>
-      <Header />
+      <ValidateElement 
+        validPaths={validPathsHeader}> 
+        <Header /> 
+      </ValidateElement>
       <main>
-        <Outlet />
+        {
+          navigation.state === 'loading' 
+            ? 'Loading...'      
+            : <Outlet />
+        }
       </main>
       <footer>Esto es un footer</footer>
     </>
