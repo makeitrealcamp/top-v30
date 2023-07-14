@@ -23,3 +23,27 @@
 - **React - Estilos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/sYuZQYKA0.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/sYuZQYKA0.mp4)
 - **React - formularios:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/CpymIHXsY.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-29/CpymIHXsY.mp4)
 - **Protocolo HTTP (Metodos, Estados, Fetch):** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-30/ySJBh1WKJ.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-06-30/ySJBh1WKJ.mp4)
+
+### Sprint 3:
+
+- **React - Fecht(CRUD):** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-04/jC_KoGbeb.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-04/jC_KoGbeb.mp4)
+- **React - useEffect:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-04/hy8ck8i7w.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-04/hy8ck8i7w.mp4)
+  **Express - Primeros pasos, CRUD:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-05/F6rdPtvbY.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-05/F6rdPtvbY.mp4)
+- **Modelo Vista Controlador:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-05/7o2dycEJ8.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-05/7o2dycEJ8.mp4)
+- **Asesoría - Como reutilizar componente formulario:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-05/SjcTTViP6.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-05/SjcTTViP6.mp4)
+- **Conectar React y Express + CORS:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-06/RJAclKy6\_.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-06/RJAclKy6_.mp4)
+- **Despliegue front y back:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-07/WrX-QKDba.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-07/WrX-QKDba.mp4)
+
+## Fase Principal:
+
+### Sprint 1:
+
+- **Scrum introducción:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-10/eaDOVilns.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-10/eaDOVilns.mp4)
+- **Scrum - MVP, Jira:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-10/poX2FwJfD.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-10/poX2FwJfD.mp4)
+- **Gitflow parte 1:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-11/BFSd-PdzP.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-11/BFSd-PdzP.mp4)
+- **Git: merge & rebase:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-12/Fr-zEmqx6.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-12/Fr-zEmqx6.mp4)
+- **Resolver conflicto con rebase & git stash, git log:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-12/CwSA3tPLE.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-12/CwSA3tPLE.mp4)
+- **Prototipos y clases en javascript:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/f--jqudC6.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/f--jqudC6.mp4)
+- **React: componentes con clases:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/a63J1uCkD.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/a63J1uCkD.mp4)
+- **React: Enrutamiento con React Router Dom 6.4:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/ZctEv7vrf.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/ZctEv7vrf.mp4)
+- **Fecht de datos con RRD 6.4 & HOC (High Order Component) para rutas privadas y elementos condicionas por rutas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/QYbW24wZR.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/QYbW24wZR.mp4)
