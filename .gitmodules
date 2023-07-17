@@ -1,0 +1,3 @@
+[submodule "examples/frontend-nft"]
+	path = examples/frontend-nft
+	url = https://github.com/leoneloliveros/frontend-nft.git
