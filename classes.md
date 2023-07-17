@@ -46,4 +46,10 @@
 - **Prototipos y clases en javascript:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/f--jqudC6.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/f--jqudC6.mp4)
 - **React: componentes con clases:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/a63J1uCkD.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-13/a63J1uCkD.mp4)
 - **React: Enrutamiento con React Router Dom 6.4:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/ZctEv7vrf.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/ZctEv7vrf.mp4)
-- **Fecht de datos con RRD 6.4 & HOC (High Order Component) para rutas privadas y elementos condicionas por rutas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/QYbW24wZR.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/QYbW24wZR.mp4)
+- **Fetch de datos con RRD 6.4 & HOC (High Order Component) para rutas privadas y elementos condicionas por rutas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/QYbW24wZR.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-14/QYbW24wZR.mp4)
+
+### Sprint 2:
+
+- **Configurando proyecto react como un Pro:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/rS5tcEMpM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/rS5tcEMpM.mp4)
+
+- **Conventional commits Lint y Configuration Repositorio:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/jhM0BMqQP.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/jhM0BMqQP.mp4)
