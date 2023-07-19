@@ -53,3 +53,11 @@
 - **Configurando proyecto react como un Pro:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/rS5tcEMpM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/rS5tcEMpM.mp4)
 
 - **Conventional commits Lint y Configuration Repositorio:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/jhM0BMqQP.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-17/jhM0BMqQP.mp4)
+
+- **React Hooks - Custom Hooks:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/h2vAA4ia9.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/h2vAA4ia9.mp4)
+
+- **React config - Refactoring:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/sKf4QNvtN.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/sKf4QNvtN.mp4)
+
+
+
+
