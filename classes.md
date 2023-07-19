@@ -58,6 +58,5 @@
 
 - **React config - Refactoring:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/sKf4QNvtN.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/sKf4QNvtN.mp4)
 
-
-
+- **Peticiones Paralelas, axios y swr:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4)
 
