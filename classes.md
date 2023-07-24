@@ -60,3 +60,9 @@
 
 - **Peticiones Paralelas, axios y swr:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4)
 
+- **Ejercicio de peticiones paralelas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/6TfMTMOyt.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/6TfMTMOyt.mp4)
+
+- **Solucion de ejercicio de peticioes paralelas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/cjOKwL5s4.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/cjOKwL5s4.mp4)
+
+
+- **Browser Api:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/fpZdqFA9P.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/fpZdqFA9P.mp4)
