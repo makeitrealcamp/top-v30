@@ -1,8 +1,8 @@
 {
-  "name": "fundamentos",
+  "name": "testing-example",
   "version": "1.0.0",
   "description": "",
-  "main": "assertion-library.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --watch",
     "test:coverage": "jest --coverage"
