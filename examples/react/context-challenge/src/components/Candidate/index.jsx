@@ -1,16 +1,14 @@
-import React from 'react'
-import './candidate.scss'
+import React, { useContext } from 'react';
+import { CandidateContext } from '../../store/CandidateContext';
 
-const Candidate = () => {
-  const name = 'Gatito'
+const Candidate = ({ name }) => {
+  const store = useContext(CandidateContext);
 
   return (
-    <div className='card'>  
-      <h2>{name}</h2>
-      <img src="https://petcostumecenter.com/wp-content/uploads/2020/05/580413_PS_PAW_BILL_SUIT-scaled.jpg" alt="Catdidato" />
-      <button>Votar</button>
-    </div>
-  )
-}
+    <li className="candidate-card" onClick={() => store.handleVotes(name)}>
+      {name}
+    </li>
+  );
+};
 
-export default Candidate
+export default Candidate;

@@ -1,13 +1,15 @@
-import React from 'react'
-import './TotalVotes.scss'
+// import totalVotesNum from '../../services/utils.js';
+import React, { useContext } from 'react';
+import { CandidateContext } from '../../store/CandidateContext';
 
 const TotalVotes = () => {
-  return (
-    <div className='totalvotos'>
-      <h3>Total de votantes</h3>
-      <p>0</p>
-    </div>
-  )
-}
+  const store = useContext(CandidateContext);
 
-export default TotalVotes
+  return (
+    <div className="total-votes-card">
+      {`Total de votantes: ${store.total}`}
+    </div>
+  );
+};
+
+export default TotalVotes;

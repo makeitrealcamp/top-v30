@@ -1,25 +1,20 @@
-import Candidate from "../Candidate"
-import './ListCandidates.scss'
-
-const candidatesArr = [
-  "candidate1",
-  "candidate2",
-  "candidate3",
-  "candidate4",
-]
+import React, { useContext } from 'react';
+import Candidate from '../Candidate';
+import { CandidateContext } from '../../store/CandidateContext';
 
 const ListCandidates = () => {
+  const store = useContext(CandidateContext);
+  const candidates = Object.keys(store.data);
 
   return (
-    <div className='candidate-container'>
-    {
-      candidatesArr.map(item=>{ 
-        return (
-          <Candidate/>
-        )}
-      )}
+    <div className="list-candidates">
+      <ul>
+        {
+          candidates.map((item) => <Candidate key={item} name={item} />)
+        }
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default ListCandidates
+export default ListCandidates;

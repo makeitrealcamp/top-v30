@@ -1,27 +1,21 @@
-import './App.scss'
-import ListCandidates from './components/ListCandidates'
-import Filter from './components/Filter'
-import TotalVotes from './components/TotalVotes'
-import IndividualVotes from './components/IndividualVotes'
+import './App.scss';
+import CandidateVotes from './components/CandidateVotes';
+import Filter from './components/Filter';
+import ListCandidates from './components/ListCandidates';
+import TotalVotes from './components/TotalVotes';
 
-function App() {
-  return (
-    <>
-      <div className='title'>
-        <h1>Ejerce tu derecho al voto</h1>
+const App = () => (
+  <main className="main">
+    <h2>Voting App</h2>
+    <ListCandidates />
+    <div className="content-container">
+      <Filter />
+      <div className="report-container">
+        <TotalVotes />
+        <CandidateVotes />
       </div>
-      <div className="App">
-        <ListCandidates />
-          <div className='main'>
-            <Filter />
-            <div className="second-main">
-              <TotalVotes />
-              <IndividualVotes />
-            </div>
-          </div>
-      </div>
-    </>
-  )
-}
+    </div>
+  </main>
+);
 
-export default App
+export default App;

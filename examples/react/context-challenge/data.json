@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Hirsch Pancast",
+    "votes": 5
+  },
+  {
+    "id": 2,
+    "name": "Larisa Chalcraft",
+    "votes": 5
+  },
+  {
+    "id": 3,
+    "name": "Leland Gridon",
+    "votes": 5
+  },
+  {
+    "id": 4,
+    "name": "Lonnard Calles",
+    "votes": 5
+  },
+  {
+    "id": 5,
+    "name": "Carlos",
+    "votes": 10
+  }
+]
