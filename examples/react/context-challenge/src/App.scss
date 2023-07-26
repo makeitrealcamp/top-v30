@@ -1,0 +1,25 @@
+
+.title{
+  font-size: 40px;
+  text-align: center;
+  h1{
+    margin: 0.5rem auto;
+  }
+}
+
+.main{
+  max-width: 80%;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-top: 1px solid black;
+}
+
+.second-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
