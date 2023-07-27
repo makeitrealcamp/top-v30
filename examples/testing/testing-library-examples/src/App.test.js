@@ -12,4 +12,3 @@ test('renders Free dictionary title', () => {
   // Assert
   expect(linkElement).toBeInTheDocument();
 });
-

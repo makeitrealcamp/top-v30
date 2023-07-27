@@ -2,6 +2,7 @@ function createRobot([_x, _y], direction) {
   const rightOrientation = ['North', 'East', 'South', 'West']
   let x = _x
   let y = _y
+  //let position = [_x, _y]
   let orientation = direction 
   let message
 
