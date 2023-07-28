@@ -6,7 +6,7 @@ const SideBar = ({ items = [] }) => {
       {
         items.map(item => (
           <div key={item.href}>
-            <a href={item.href} role="navigation">
+            <a href={item.href} data-testid="sidebar-navigation">
               {item.title}
             </a>
           </div>

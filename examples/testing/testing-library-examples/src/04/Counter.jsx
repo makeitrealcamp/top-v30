@@ -5,7 +5,7 @@ const Counter = () => {
 
   return (
     <div>
-      <p data-testid="loquesea">You clicked {count} times</p>
+      <p data-testid='paragraph-count'>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>Add one</button>
     </div>
   );
