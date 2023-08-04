@@ -19,19 +19,20 @@ app.get('/api/healthcheck', (_, res) => {
 })
 
 // Listado de operadores relacionales
-// $eq - equal - igual
-// $lt - low than - menor que
-// $lte - low than equal - menor o igual que
-// $gt - greater than - mayor que
-// $gte - greater than equal - mayor o igual que
-// $ne - not equal - distinto
+// equals?: Int | IntFieldRefInput,
+// in?: Int[] | ListIntFieldRefInput,
+// notIn?: Int[] | ListIntFieldRefInput,
+// lt?: Int | IntFieldRefInput,
+// lte?: Int | IntFieldRefInput,
+// gt?: Int | IntFieldRefInput,
+// gte?: Int | IntFieldRefInput,
+// not?: Int | NestedIntFilter
 
 /* app.get('/api/products', async (_, res) => {
   const products = await prisma.product.findMany({
     where: {
       price: {
-        gte: 40000,
-        lte: 110000
+        equals: 80000
       }
     }
   })
@@ -40,7 +41,17 @@ app.get('/api/healthcheck', (_, res) => {
 }) */
 
 app.get('/api/products', async (_, res) => {
-  const products = await prisma.product.findMany()
+  const products = await prisma.product.findMany({
+    include: {
+      reviews: {
+        select: {
+          id: true,
+          text: true,
+          rating: true,
+        }
+      }
+    }
+  })
 
   return res.status(200).json(products)
 })
@@ -58,6 +69,24 @@ app.post('/api/products', async (req, res) => {
   })
 
   return res.status(201).json(productCreated)
+})
+
+app.post('/api/reviews', async (req, res) => {
+  const data = req.body
+
+  const review = await prisma.review.create({
+    data: {
+      text: data.text,
+      rating: data.rating,
+      product: {
+        connect: {
+          id: data.productId
+        }
+      }
+    }
+  })
+
+  return res.status(201).json(review)
 })
 
 app.listen(port, () => {

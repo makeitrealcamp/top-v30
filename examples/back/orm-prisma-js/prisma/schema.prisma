@@ -16,6 +16,15 @@ model Product {
   description String
   price       Int
   stock       Int?
+  reviews     Review[]
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
+}
+
+model Review {
+  id        String  @id @default(cuid())
+  text      String
+  rating    Int
+  product   Product @relation(fields: [productId], references: [id])
+  productId String
 }
