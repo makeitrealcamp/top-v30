@@ -6,6 +6,7 @@ import {
   getAllUserHandler,
   getUserHandler,
   updateUserHandler,
+  loginHandler
 } from './user.controller';
 
 const router = Router();
@@ -24,5 +25,8 @@ router.delete('/:id', deleteUserHandler);
 
 // /api/users/:id -> PATCH
 router.patch('/:id', updateUserHandler);
+
+// /api/users/login -> POST
+router.post('/login', loginHandler)
 
 export default router;

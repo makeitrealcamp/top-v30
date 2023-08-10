@@ -1,5 +1,7 @@
 import { Request, Response } from 'express';
+import bcrypt from 'bcrypt';
 
+import { comparePassword } from '../../auth/utils/bcrypt';
 import {
   createUser,
   deleteUser,
@@ -8,6 +10,31 @@ import {
   getUserById,
   updateUser,
 } from './user.service';
+
+export async function loginHandler(req: Request, res: Response){
+  const { email, password } = req.body;
+
+  try {
+    const user = await getUserByEmail(email);
+
+    if(!user) {
+      return res.status(401).send('Invalid credentials');
+    }
+
+    // Compare password
+    const isMatch = await comparePassword(password, user.password)
+    
+    if(!isMatch) {
+      return res.status(401).send('Invalid credentials');
+    }
+
+    return res.json(user)
+  } catch(error) {
+
+  }
+
+}
+
 
 export async function getAllUserHandler(req: Request, res: Response) {
   const users = await getAllUser();
