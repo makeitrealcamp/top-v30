@@ -6,7 +6,8 @@ import {
   getAllUser,
   getUserById,
 } from './user.service';
-
+import { AuthRequest } from '../../auth/auth.types';
+import { User } from './user.types';
 
 export async function getAllUserHandler(req: Request, res: Response) {
   const users = await getAllUser();
@@ -36,8 +37,8 @@ export async function getUserHandler(req: Request, res: Response) {
   return res.json(user);
 }
 
-export async function deleteUserHandler(req: Request, res: Response) {
-  const { id } = req.params;
+export async function deleteUserHandler(req: AuthRequest, res: Response) {
+  const { id } = req.user as User
 
   const user = await getUserById(id);
 

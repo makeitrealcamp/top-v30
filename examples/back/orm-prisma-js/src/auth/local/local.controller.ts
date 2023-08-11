@@ -3,6 +3,7 @@ import jwt from 'jsonwebtoken';
 
 import { getUserByEmail } from '../../api/user/user.service';
 import { comparePassword } from '../utils/bcrypt';
+import { signToken } from '../auth.service'; 
 
 export async function loginHandler(req: Request, res: Response){
   const { email, password } = req.body;
@@ -24,9 +25,9 @@ export async function loginHandler(req: Request, res: Response){
     // JWT
     const payload = {
       id: user.id,
+      email: user.email,
     }
-    const SECRET = 'm1-s3cr3t-k3y'
-    const token = jwt.sign(payload, SECRET, { expiresIn: '1d' })
+    const token = signToken(payload)
 
     const profile = {
       firstName: user.firstName,

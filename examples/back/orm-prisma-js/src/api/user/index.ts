@@ -7,6 +7,7 @@ import {
   getUserHandler,
   updateUserHandler,
 } from './user.controller';
+import { isAuthenticated } from '../../auth/auth.controller';
 
 const router = Router();
 
@@ -20,7 +21,7 @@ router.post('/', createUserHandler);
 router.get('/:id', getUserHandler);
 
 // /api/users/:id -> DELETE
-router.delete('/:id', deleteUserHandler);
+router.delete('/', isAuthenticated, deleteUserHandler);
 
 // /api/users/:id -> PATCH
 router.patch('/:id', updateUserHandler);
