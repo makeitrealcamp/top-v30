@@ -58,11 +58,55 @@
 
 - **React config - Refactoring:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/sKf4QNvtN.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-18/sKf4QNvtN.mp4)
 
-- **Peticiones Paralelas, axios y swr:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4)
+- **Peticiones Paralelas, axios y SWR:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/OXYWmiDP_.mp4)
 
 - **Ejercicio de peticiones paralelas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/6TfMTMOyt.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-19/6TfMTMOyt.mp4)
 
-- **Solucion de ejercicio de peticioes paralelas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/cjOKwL5s4.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/cjOKwL5s4.mp4)
+- **Solución de ejercicio de peticiones paralelas:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/cjOKwL5s4.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/cjOKwL5s4.mp4)
 
 
 - **Browser Api:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/fpZdqFA9P.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-21/fpZdqFA9P.mp4)
+
+### Sprint 3:
+
+- **React - Context API:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-24/O4taTnrAA.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-24/O4taTnrAA.mp4)
+
+- **Testing - fundamentos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-25/P4cw0d0SM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-25/P4cw0d0SM.mp4)
+
+- **Testing - fundamentos parte 2, ejercicio:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-25/oJQ037af0.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-25/oJQ037af0.mp4)
+
+- **Testing - Ejercicio robot simulator:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-26/Nw-kkbcfq.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-26/Nw-kkbcfq.mp4)
+
+- **React- context challenge solución:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-26/tliCu7JB6.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-26/tliCu7JB6.mp4)
+
+- **Testing - RTL, querys, eventos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-27/pFHcAnTo1.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-27/pFHcAnTo1.mp4)
+
+- **Testing - RTL, app bookshelf test de integración:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-28/K4__3-1Oz.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-28/K4__3-1Oz.mp4)
+
+
+### Sprint 4:
+
+- **Bases de datos - Introducción:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-31/qINEejgIj.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-31/qINEejgIj.mp4)
+
+- **Bases de datos - Normalización de datos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-31/nqL7BjhyW.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-07-31/nqL7BjhyW.mp4)
+
+- **Bases de datos - servidor postgres y pgadmin como DBMS:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-01/iNlq0Uwfp.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-01/iNlq0Uwfp.mp4)
+
+- **Bases de datos - SQL:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-02/JRkBaKcW_.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-02/JRkBaKcW_.mp4)
+
+### Sprint 5:
+
+- **Repaso node, express - SQL vs query builders vs ORM prisma:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-03/KIwzrfQdI.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-03/KIwzrfQdI.mp4)
+
+- **Prisma ORM - Typescript, scaffolding:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-09/PjeuMVzmA.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-09/PjeuMVzmA.mp4)
+
+- **Hashing de contraseña en node.js con bcrypt:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-10/-XvRskDBE.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-10/-XvRskDBE.mp4)
+
+- **Jsonwebtoken JWT:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-10/9h6Hl77G4.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-10/9h6Hl77G4.mp4)
+
+- **Middleware - isAuthenticated:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/iou1scqsv.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/iou1scqsv.mp4)
+
+- **Usuario por role, relación muchos a muchos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/aLC1SUZZs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/aLC1SUZZs.mp4)
+
+- **Autorización de request por role:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-15/cYp2jZIWM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-15/cYp2jZIWM.mp4)
+
