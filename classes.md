@@ -108,7 +108,15 @@
 
 - **Usuario por role, relación muchos a muchos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/aLC1SUZZs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/aLC1SUZZs.mp4)
 
+
+
+### Sprint 6:
+
 - **Repaso flujo backend:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-14/8mW26iucM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-14/8mW26iucM.mp4)
 
 - **Autorización de request por role:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-15/cYp2jZIWM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-15/cYp2jZIWM.mp4)
+
+- **Registro de usuario con role:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-16/uwx4rPirs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-16/uwx4rPirs.mp4)
+
+- **Autenticación desde el front:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-16/RPhrkHhdb.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-16/RPhrkHhdb.mp4)
 
