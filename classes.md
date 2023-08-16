@@ -108,5 +108,7 @@
 
 - **Usuario por role, relación muchos a muchos:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/aLC1SUZZs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-11/aLC1SUZZs.mp4)
 
+- **Repaso flujo backend:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-14/8mW26iucM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-14/8mW26iucM.mp4)
+
 - **Autorización de request por role:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-15/cYp2jZIWM.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-15/cYp2jZIWM.mp4)
 
