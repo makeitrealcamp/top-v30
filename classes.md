@@ -120,3 +120,8 @@
 
 - **Autenticación desde el front:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-16/RPhrkHhdb.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-16/RPhrkHhdb.mp4)
 
+- **Seeders en prisma JS:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-17/obmEawN_Y.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-17/obmEawN_Y.mp4)
+
+- **Testing en backend con typescript:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-17/___QgbTpD.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-17/___QgbTpD.mp4)
+
+
