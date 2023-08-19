@@ -124,4 +124,7 @@
 
 - **Testing en backend con typescript:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-17/___QgbTpD.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-17/___QgbTpD.mp4)
 
+- **Carga de imagenes - frontend:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-18/ITfa57ECx.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-18/ITfa57ECx.mp4)
+
+- **Carga de imágenes - backend:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-18/4NUkOVx4L.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-18/4NUkOVx4L.mp4)
 
