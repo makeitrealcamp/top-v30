@@ -128,3 +128,8 @@
 
 - **Carga de imágenes - backend:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-18/4NUkOVx4L.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-18/4NUkOVx4L.mp4)
 
+
+### Sprint 7:
+- **Envío de correos - nodemailer:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-22/qIT5ANJ0M.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-22/qIT5ANJ0M.mp4)
+
+- **Envío de correos - SendGrid:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-22/z-ASUFDvK.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-22/z-ASUFDvK.mp4)
