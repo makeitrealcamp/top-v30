@@ -7,7 +7,8 @@ import './App.css'
 function App() {
   const [name, setName] = useState('')
   const [file, setFile] = useState(null)
-  const [image, setImage] = useState(null)
+
+  const [image, setImage] = useState(null) // estado para mostrar imagen
 
   const readFile = (file) => {
     const reader = new FileReader()
@@ -39,7 +40,7 @@ function App() {
       data.append(`file_${i}`, file[i], file[i].name)
     }
 
-    const response = await axios.post('http://localhost:3000/upload', 
+    const response = await axios.post('http://localhost:8080/test-formdata', 
       data,
       {
         headers: {
