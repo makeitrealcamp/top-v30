@@ -1,6 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import {Elements} from '@stripe/react-stripe-js';
+import {loadStripe} from '@stripe/stripe-js';
+
+import Checkout from '../components/Checkout';
 import CartCard from '../components/CartCard';
+
+const stripePromise = loadStripe('pk_test_51MyeEwIqx4vvSZsUpdrxLHB6BC7348RhkXToGdQylFjJNEyPKFQFy9xQzgSTTmZtngSDhiwDjrhht0UpD9PAUbZd00vrZKhghC');
 
 const CartDetails = () => {
   const cartItems = useSelector(state => state.cart.items);
@@ -29,6 +35,11 @@ const CartDetails = () => {
           <p>Total Price: ${totalPrice}</p>
         </div>
       </div>
+      <Elements stripe={stripePromise}>
+        <Checkout 
+          totalPrice={totalPrice}
+        />
+      </Elements>
     </div>
   );
 };
