@@ -136,4 +136,8 @@
 
 - **Pagos con stripe - parte 1:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-23/5uFzEdUY8.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-23/5uFzEdUY8.mp4)
 
+- **Pagos con stripe - parte 2:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-24/tDfljK01X.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-24/tDfljK01X.mp4)
+
+- **Testing e2e - Cypress:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-24/Widb-TIuC.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-24/Widb-TIuC.mp4)
+
 
