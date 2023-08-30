@@ -141,6 +141,17 @@
 - **Testing e2e - Cypress:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-24/Widb-TIuC.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-24/Widb-TIuC.mp4)
 
 - **Flujos Activación de usuario - parte 1:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-25/IOSq4XGBE.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-25/IOSq4XGBE.mp4)
--
+
 - **Flujo activación de usuario - parte 2:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-25/Kq1yg51be.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-25/Kq1yg51be.mp4)
+
+
+### Sprint 8:
+- **Avances proyectos grupales:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-28/iqgOlX1JW.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-28/iqgOlX1JW.mp4)
+
+- **Validar datos - front:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-29/2tgd3AHi-.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-29/2tgd3AHi-.mp4)
+
+- **Repaso activación usuario y Validar datos - back:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/V4hHrvLjO.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/V4hHrvLjO.mp4)
+
+- **Paginación - front y back:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/hTiYdT78i.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/hTiYdT78i.mp4)
+
 
