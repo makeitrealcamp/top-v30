@@ -154,4 +154,6 @@
 
 - **Paginación - front y back:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/hTiYdT78i.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/hTiYdT78i.mp4)
 
+- **Autenticación con terceros - Auth0:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-31/wMrgkVl39.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-31/wMrgkVl39.mp4)
+
 
