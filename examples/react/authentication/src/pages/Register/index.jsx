@@ -1,10 +1,21 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import { useAuth0 } from "@auth0/auth0-react";
 
 import { validateField } from '../../assets/utils/validateField'
 import { validators } from '../../assets/validators'
 
 const RegisterPage = () => {
+  const { 
+    loginWithRedirect,
+    loginWithPopup,
+    isAuthenticated,
+    logout,
+    user
+  } = useAuth0();
+
+  console.log("🚀 user:", user)
+
   const [ dataRegister, setDataRegister ] = useState({
     firstName: '',
     lastName: '',
@@ -22,6 +33,7 @@ const RegisterPage = () => {
   const [ username, setUsername ] = useState('')
 
   const validateField = (fieldName, value) => {
+
     let errorMessage = ''
   
     const errorActions = {
@@ -72,9 +84,39 @@ const RegisterPage = () => {
     setSendData(true)
   }
 
+  const handleGoogleLogin = () => {
+    const options = {
+      authorizationParams: { connection: 'google-oauth2' }
+    }
+
+    loginWithRedirect(options)
+  }
+
+  const handleDefaultLogin = () => {
+    const options = {
+      authorizationParams: { connection: 'Username-Password-Authentication' }
+    }
+
+    loginWithPopup(options)
+  }
+
   if(sendData) return (
     <h2>Gracias por registrarte {username}, ahora ve a tu correo electrónico y activa tu cuenta</h2>
   )
+
+  if(isAuthenticated) {
+    return (
+      <>
+        <button
+          onClick={logout}
+          >
+          Logout
+        </button>
+        <img src={user.picture} alt={user.name} />
+        <h2>{user.name}</h2>
+      </>
+    )
+  }
 
   return (
     <>
@@ -134,6 +176,31 @@ const RegisterPage = () => {
           style={{ margin: '30px 60px' }}
         > Login </button>
       </form>
+      <div>
+
+        {/* Google */}
+        <button style = {{
+          width: '100%',
+          backgroundColor: 'white',
+          color: 'blue'
+        }}
+        onClick={() => handleGoogleLogin()}
+        > 
+          Google 
+        </button>
+
+        {/* Local Auth0 */}
+        <button style = {{
+          width: '100%',
+          backgroundColor: 'green',
+          color: 'white',
+          margin: '20px 0px'
+        }}
+        onClick={() => handleDefaultLogin()}
+        > 
+          Login default Auth0 
+        </button>
+      </div>
     </>
   )
 }
