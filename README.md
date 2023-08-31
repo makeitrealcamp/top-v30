@@ -22,7 +22,6 @@
 - Brayan Camilo Suarez Cortes
 - Andrea Vargas
 - Rodrigo Bonilla
-- Carlos Alfredo Mendoza Páez
 - Andry Carolina Peña Villamizar
 
 ## Como es un dia de estudio durante el programa TOP?
