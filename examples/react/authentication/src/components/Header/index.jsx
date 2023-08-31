@@ -18,19 +18,22 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <ul>
-          <li>
+        <ul style={{ display: 'flex' }}>
+          <li style={{ margin: '0 30px' }}>
             <NavLink to="/">Home</NavLink>
           </li>
-          <li>
+          <li style={{ margin: '0 30px' }}>
+            <NavLink to="/products">Products</NavLink>
+          </li>
+          <li style={{ margin: '0 30px' }}>
             <NavLink to="/profile">Profile</NavLink>
           </li>
           { !localStorage.getItem('token') ? (
             <>
-            <li>
+            <li style={{ margin: '0 30px' }}>
               <NavLink to="/login">Login</NavLink>
             </li>
-            <li>
+            <li style={{ margin: '0 30px' }}>
               <NavLink to="/register">Register</NavLink>
             </li>
             </>

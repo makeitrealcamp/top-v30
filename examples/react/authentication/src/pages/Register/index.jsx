@@ -1,16 +1,42 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
+import { validateField } from '../../assets/utils/validateField'
+import { validators } from '../../assets/validators'
+
 const RegisterPage = () => {
   const [ dataRegister, setDataRegister ] = useState({
     firstName: '',
     lastName: '',
     email: '',
     password: '',
-    roleId: 'cllf829qw000090mu95flje00'
   })
+  const [ errors, setErrors ] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: '',
+  })
+
   const [ sendData, setSendData] = useState(false)
   const [ username, setUsername ] = useState('')
+
+  const validateField = (fieldName, value) => {
+    let errorMessage = ''
+  
+    const errorActions = {
+      firstName: () => !(validators.name.test(value)) && 'El nombre solo puede contener letras',
+      lastName: () => !(validators.name.test(value)) && 'El apellido solo puede contener letras',
+      email: () => !(validators.email.test(value)) && 'El email no es válido, ejm: jhon@gmail.com',
+      password: () => !(validators.password.test(value)) && 'La contraseña debe tener al menos 8 caracteres, una letra y un número'
+    }
+    errorMessage = errorActions[fieldName]()
+  
+    setErrors({
+      ...errors,
+      [fieldName]: errorMessage
+    })
+  }
 
   const handleChange = (event) => {
     const { name, value } = event.target
@@ -19,6 +45,8 @@ const RegisterPage = () => {
       ...dataRegister,
       [name]: value
     })
+
+    validateField(name, value)
   }
 
   const handleSubmit = async (event) => {
@@ -26,11 +54,13 @@ const RegisterPage = () => {
     
     const { data } = await axios.post(
       'http://localhost:8080/api/users',
-      dataRegister
+      {
+        ...dataRegister,
+        roleId: 'cllf829qw000090mu95flje00'
+      }
     )
 
     setUsername(data.profile.fullName)
-    console.log("🚀 ~ file: index.jsx:20 ~ handleSubmit ~ data:", data)
 
     setDataRegister({
       firstName: '',
@@ -56,7 +86,7 @@ const RegisterPage = () => {
           flexDirection: 'column',
         }}
       >
-        <label htmlFor='firstName'> Name </label>
+        <label htmlFor='firstName'> Nombre: </label>
         <input
           id='firstName'
           name='firstName'
@@ -64,7 +94,8 @@ const RegisterPage = () => {
           value={dataRegister.firstName}
           onChange={handleChange}
         />
-        <label htmlFor='lastName'> lastName </label>
+        { errors.firstName && <span style={{ color: 'red' }}>{errors.firstName}</span> }
+        <label htmlFor='lastName'> Apellido: </label>
         <input
           id='lastName'
           name='lastName'
@@ -72,7 +103,8 @@ const RegisterPage = () => {
           value={dataRegister.lastName}
           onChange={handleChange}
         />
-        <label htmlFor='email'> Email </label>
+        { errors.lastName && <span style={{ color: 'red' }}>{errors.lastName}</span> }
+        <label htmlFor='email'> Email: </label>
         <input 
           id='email'
           name='email'
@@ -80,7 +112,8 @@ const RegisterPage = () => {
           value={dataRegister.email}
           onChange={handleChange}
           />
-        <label htmlFor='password'> Password </label>
+        { errors.email && <span style={{ color: 'red' }}>{errors.email}</span> }
+        <label htmlFor='password'> Contraseña: </label>
         <input 
           id='password'
           name='password'
@@ -88,7 +121,18 @@ const RegisterPage = () => {
           value={dataRegister.password}
           onChange={handleChange}
           />
-        <button type='submit'> Login </button>
+        { errors.password && <span style={{ color: 'red' }}>{errors.password}</span> }
+
+        {/* {Object.keys(errors).map((error) => (
+          <div key={error} style={{ color: 'red' }}>
+            {errors[error]}
+          </div>
+        ))} */}
+        
+        <button 
+          type='submit'
+          style={{ margin: '30px 60px' }}
+        > Login </button>
       </form>
     </>
   )

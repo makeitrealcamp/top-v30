@@ -8,6 +8,7 @@ import PrivateRoute from '../components/PrivateRoute'
 import LoginPage from '../pages/Login'
 import Verify from '../pages/Verify'
 import RegisterPage from '../pages/Register'
+import ProductList from '../pages/Products'
 
 
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/products',
+        element: <ProductList />
       },
       {
         path: '/profile',

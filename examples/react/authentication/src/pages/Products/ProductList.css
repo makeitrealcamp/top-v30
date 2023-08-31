@@ -1,0 +1,53 @@
+.product-list {
+  text-align: center;
+}
+
+.product-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0;
+}
+
+.product-item {
+  background-color: #553434;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.review-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.review-item {
+  background-color: #e1e1e1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.prev-button,
+.next-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.prev-button:disabled,
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.page-number {
+  margin: 0 10px;
+}
