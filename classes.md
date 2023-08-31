@@ -148,10 +148,12 @@
 ### Sprint 8:
 - **Avances proyectos grupales:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-28/iqgOlX1JW.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-28/iqgOlX1JW.mp4)
 
-- **Validar datos - front:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-29/2tgd3AHi-.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-29/2tgd3AHi-.mp4)
+- **Validar datos - front:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-29/2tgd3AHi-.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-29/2tgd3AHi-.mp4)
 
 - **Repaso activación usuario y Validar datos - back:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/V4hHrvLjO.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/V4hHrvLjO.mp4)
 
 - **Paginación - front y back:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/hTiYdT78i.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-30/hTiYdT78i.mp4)
+
+- **Autenticación con terceros - Auth0:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-31/wMrgkVl39.mp4]([https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-31/wMrgkVl39.mp4)
 
 
