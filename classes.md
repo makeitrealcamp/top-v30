@@ -156,5 +156,5 @@
 
 - **Autenticación con terceros - Auth0:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-31/wMrgkVl39.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-08-31/wMrgkVl39.mp4)
 
-
+- **Continuous integration and Continuous deployment (CI/CD):** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-01/0a0V1eJnN.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-01/0a0V1eJnN.mp4)
 
