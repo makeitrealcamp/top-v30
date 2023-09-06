@@ -162,3 +162,10 @@
 - **CI & CD - github actions:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-04/3P1DMRCyl.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-04/3P1DMRCyl.mp4)
 
 - **Docker introducción:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-04/ecVO2cDds.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-04/ecVO2cDds.mp4)
+
+- **Docker CLI - puertos, volumes:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-05/jtTI3SBmV.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-05/jtTI3SBmV.mp4)
+
+- **Docker - Network & Dockerfile:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-05/kDncJgpZR.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-05/kDncJgpZR.mp4)
+
+
+
