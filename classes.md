@@ -167,5 +167,16 @@
 
 - **Docker - Network & Dockerfile:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-05/kDncJgpZR.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-05/kDncJgpZR.mp4)
 
+- **Redis:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-06/QLmP1U7El.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-06/QLmP1U7El.mp4)
+
+- **Redux - Introducción:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-06/D9RCDBkXQ.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-06/D9RCDBkXQ.mp4)
+
+
+
+
+
+
+
+
 
 
