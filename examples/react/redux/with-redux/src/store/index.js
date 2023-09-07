@@ -1,36 +1,27 @@
-import { legacy_createStore } from "redux"
+import { legacy_createStore, combineReducers, applyMiddleware } from "redux";
+import thunk from 'redux-thunk'
 
-const initialState = { 
-  count: 0,
-  email: '', // new feature
-  password: '' // new feature
-}
+import countReducer from "./reducers/count.reducer";
+import formReducer from "./reducers/form.reducer";
+import postsReducer from "./reducers/posts.reducer";
 
-const reducer = ( state = initialState, action ) => {
-  switch (action.type) {
-    case 'INCREMENT':
-      return {
-        ...state,
-        count: state.count + 1 
-      }
-      break
-    case 'DECREMENT':
-      return {
-        ...state,
-        count: state.count - 1
-      }
-      break
-    case 'CHANGE_FORM':
-      const { name, value } = action.payload
-      return {
-        ...state,
-        [name]: value
-      }
-      break
-    default:
-      return state
+const rootReducer = combineReducers({
+  countReducer,
+  formReducer,
+  postsReducer
+})
+
+/* function logger(store) {
+  return function(next) {
+    return function(action) {
+      const prevState = store.getState();
+      next(action);
+      console.log('previous state:', prevState.countReducer.count, action, 'next state:', store.getState().countReducer.count)
+    }
   }
-}
 
-export const store = legacy_createStore(reducer)
+} */
 
+const middleware = applyMiddleware(thunk)
+
+export const store = legacy_createStore(rootReducer, middleware)

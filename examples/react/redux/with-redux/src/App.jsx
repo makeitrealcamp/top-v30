@@ -7,6 +7,7 @@ import Count from './components/Count'
 import Button from './components/Button'
 import Display from './components/Display'
 import Form from './components/Form'
+import Posts from './components/Posts'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Button />
       <Display />
       <Form />
+      <Posts />
     </>
   )
 }

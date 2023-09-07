@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 const Form = () => {
   const dispatch = useDispatch()
-  const { email, password }  = useSelector((state) => state)
+  const { email, password }  = useSelector((state) => state.formReducer)
 
   const handleChange = (event) => {
     const { name, value }  = event.target

@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 const Display = () => {
-  const { email, password }  = useSelector((state) => state)
+  const { email, password }  = useSelector((state) => state.formReducer)
 
   return (
     <div>
