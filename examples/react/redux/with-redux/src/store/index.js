@@ -20,6 +20,13 @@ const reducer = ( state = initialState, action ) => {
         count: state.count - 1
       }
       break
+    case 'CHANGE_FORM':
+      const { name, value } = action.payload
+      return {
+        ...state,
+        [name]: value
+      }
+      break
     default:
       return state
   }

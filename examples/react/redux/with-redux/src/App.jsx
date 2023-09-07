@@ -5,9 +5,10 @@ import './App.css'
 
 import Count from './components/Count'
 import Button from './components/Button'
+import Display from './components/Display'
+import Form from './components/Form'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -22,6 +23,8 @@ function App() {
       <h1>Redux en react</h1>
       <Count />
       <Button />
+      <Display />
+      <Form />
     </>
   )
 }
