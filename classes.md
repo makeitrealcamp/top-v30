@@ -175,6 +175,10 @@
 
 - **Redux - combineReducer, Thunk:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-07/wpI2hyqBe.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-07/wpI2hyqBe.mp4)
 
+- **Redux toolkit - RTK - Introducción:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-08/Vbtcv8p0t.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-08/Vbtcv8p0t.mp4)
+
+- **Redux toolkit - RTK - Asíncrono:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-08/gm5m2ACGs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-08/gm5m2ACGs.mp4)
+
 
 
 
