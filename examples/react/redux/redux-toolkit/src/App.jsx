@@ -4,6 +4,7 @@ import './App.css'
 
 import CountDisplay from './components/CountDisplay'
 import Buttons from './components/Buttons'
+import Posts from './components/Posts'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <h1>Redux toolkit</h1>
       <CountDisplay />
       <Buttons />
+      <Posts />
     </>
   )
 }
