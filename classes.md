@@ -180,6 +180,9 @@
 - **Redux toolkit - RTK - Asíncrono:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-08/gm5m2ACGs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-08/gm5m2ACGs.mp4)
 
 
+## Sprint 10:
+- **Server Side Rendering (SSR):**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-11/7UH3jx7u9.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-11/7UH3jx7u9.mp4)
+
 
 
 
