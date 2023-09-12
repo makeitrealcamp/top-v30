@@ -183,6 +183,11 @@
 ## Sprint 10:
 - **Server Side Rendering (SSR):**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-11/7UH3jx7u9.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-11/7UH3jx7u9.mp4)
 
+- **Next.js versión 12:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-12/LZh-RIjFV.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-12/LZh-RIjFV.mp4)
+
+
+
+
 
 
 
