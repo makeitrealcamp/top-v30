@@ -185,6 +185,14 @@
 
 - **Next.js versión 12:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-12/LZh-RIjFV.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-12/LZh-RIjFV.mp4)
 
+- **Graphql - apollo client:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-13/lmGSWwcVk.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-13/lmGSWwcVk.mp4)
+
+
+
+
+
+
+
 
 
 
