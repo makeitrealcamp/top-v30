@@ -187,6 +187,8 @@
 
 - **Graphql - apollo client:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-13/lmGSWwcVk.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-13/lmGSWwcVk.mp4)
 
+- **GraphQL - apollo server:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-14/cTh7iN5mq.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-14/cTh7iN5mq.mp4)
+
 
 
 
