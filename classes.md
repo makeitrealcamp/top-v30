@@ -189,6 +189,8 @@
 
 - **GraphQL - apollo server:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-14/cTh7iN5mq.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-14/cTh7iN5mq.mp4)
 
+- **Strapi - Headless CMS:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-15/bcc6L4UzO.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-15/bcc6L4UzO.mp4)
+
 
 
 
