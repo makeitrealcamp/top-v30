@@ -192,6 +192,15 @@
 - **Strapi - Headless CMS:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-15/bcc6L4UzO.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-15/bcc6L4UzO.mp4)
 
 
+## Fase Final: Sprint 1
+- **Pre demo - proyectos grupales:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-18/-9Yzy82hE.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-18/-9Yzy82hE.mp4)
+
+
+- **Websockets - Socker.io:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-19/Z1rtYGkux.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-19/Z1rtYGkux.mp4)
+
+
+- **Next.js - privatizar rutas:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-19/Y7AEj8Lxs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-19/Y7AEj8Lxs.mp4)
+
 
 
 
