@@ -204,13 +204,7 @@
 
 - **Mongo - Introducción mongoose:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-20/UqS2utWoh.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-20/UqS2utWoh.mp4)
 
-
-
-
-
-
-
-
+- **Mongo - Mongoose CRUD y validaciones:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-21/H6h9CMA11.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-21/H6h9CMA11.mp4)
 
 
 
