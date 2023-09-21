@@ -202,6 +202,8 @@
 - **Next.js - privatizar rutas:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-19/Y7AEj8Lxs.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-19/Y7AEj8Lxs.mp4)
 
 
+- **Mongo - Introducción mongoose:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-20/UqS2utWoh.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-20/UqS2utWoh.mp4)
+
 
 
 
