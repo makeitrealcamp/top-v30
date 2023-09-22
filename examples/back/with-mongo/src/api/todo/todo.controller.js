@@ -1,3 +1,5 @@
+const User = require('../user/user.model')
+
 const { 
   createTodo,
   listTodos,
@@ -8,15 +10,25 @@ const {
 
 const createTodoController = async (req, res) => {
   try {
+    const { authorization: userId } = req.headers
     const { title, body, completed } = req.body
+
+    const user = await User.findById(userId)
+
+    if(!user) {
+      throw new Error('User not found')
+    }
 
     const newTodo ={
       title,
       body,
-      completed
+      completed,
+      user: userId // This is the user id is required to create a todo
     }
 
     const todo = await createTodo(newTodo)
+    user.todos.unshift(todo)
+    await user.save({ validateBeforeSave: false })
 
     res.status(201).json({ message: 'Todo created', data: todo })
   } catch (error) {

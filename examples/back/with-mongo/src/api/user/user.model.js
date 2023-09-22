@@ -32,10 +32,15 @@ const userSchema = new Schema(
     password: {
       type: String,
       required: [true, 'Password is required'],
-    }
+    },
+    todos: {
+      type: [{ type: Schema.Types.ObjectId, ref: 'todo' }],
+      required: false,
+    },
   }, 
   {
     timestamps: true,
+    versionKey: false,
   }
 ) 
 

@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, SchemaType } = require('mongoose');
 
 const todoSchema = new Schema(
   {
@@ -6,7 +6,7 @@ const todoSchema = new Schema(
       type: String,
       required: [true, 'Title is required'],
       minlength: [4, 'Title must be at least 4 characters long'],
-      maxlength: [15, 'Title must be at most 15 characters long'],
+      maxlength: [30, 'Title must be at most 30 characters long'],
     },
     body: {
       type: String,
@@ -18,6 +18,11 @@ const todoSchema = new Schema(
       type: Boolean,
       required: false,
       default: false,
+    },
+    user: {
+      type: Schema.Types.ObjectId,
+      ref: 'user',
+      required: true
     }
   },
   {

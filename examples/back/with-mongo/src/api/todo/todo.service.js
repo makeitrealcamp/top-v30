@@ -12,6 +12,11 @@ const createTodo = async (data) => {
 const listTodos = async () => {
   try {
     const todos = await Todo.find()
+    .select('title body completed')
+    .populate({
+      path: 'user',
+      select: 'name email -_id'
+    })
     return todos
   } catch (error) {
     throw new Error(error)
