@@ -2,9 +2,23 @@ const { Schema, model } = require('mongoose');
 
 const todoSchema = new Schema(
   {
-    title: String,
-    body: String,
-    completed: Boolean
+    title: {
+      type: String,
+      required: [true, 'Title is required'],
+      minlength: [4, 'Title must be at least 4 characters long'],
+      maxlength: [15, 'Title must be at most 15 characters long'],
+    },
+    body: {
+      type: String,
+      required: [true, 'Body is required'],
+      minlength: [4, 'Body must be at least 4 characters long'],
+      maxlength: [30, 'Body must be at most 30 characters long'],
+    },
+    completed: {
+      type: Boolean,
+      required: false,
+      default: false,
+    }
   },
   {
     timestamps: true,
