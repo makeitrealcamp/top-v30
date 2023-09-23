@@ -206,6 +206,9 @@
 
 - **Mongo - Mongoose CRUD y validaciones:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-21/H6h9CMA11.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-21/H6h9CMA11.mp4)
 
+- **Mongo - Mongoose relaciones y populate:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-22/5KBhYxvB9.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-22/5KBhYxvB9.mp4)
+
+
 
 
 
