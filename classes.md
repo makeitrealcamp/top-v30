@@ -209,6 +209,11 @@
 - **Mongo - Mongoose relaciones y populate:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-22/5KBhYxvB9.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-22/5KBhYxvB9.mp4)
 
 
+## Fase Final: Sprint 2
+- **React native - Introducción:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-25/ayQyZlDOm.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-25/ayQyZlDOm.mp4)
+
+- **Nextjs - RTK next wrapper:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-25/nQ12pUnYd.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-25/nQ12pUnYd.mp4)
+
 
 
 
