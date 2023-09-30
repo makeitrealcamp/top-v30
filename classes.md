@@ -214,8 +214,15 @@
 
 - **Nextjs - RTK next wrapper:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-25/nQ12pUnYd.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-25/nQ12pUnYd.mp4)
 
-
 - **React native - enrutamiento:** [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-26/t_k_fOSwW.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-26/t_k_fOSwW.mp4)
+
+- **React Native - Enrutamiento:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-27/MVifwb-gA.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-27/MVifwb-gA.mp4)
+
+- **React Native - Peticiones, Camara, Galeria, Mapas:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-28/43iFTUczk.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-28/43iFTUczk.mp4)
+
+- **Serverless:**  [https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-29/Ee8FLgGZf.mp4](https://makeitreal.s3.amazonaws.com/videos/83255011692/2023-09-29/Ee8FLgGZf.mp4)
+
+
 
 
 
